@@ -39,3 +39,16 @@
 ## Combrobar status repositorio
 
     git status
+
+## Crear rama
+
+    git branch nombre 
+
+## Moverse a la rama
+
+    git checkout nombre
+
+## Fusionar ramas 
+
+    git merge nombre nombre2
+
