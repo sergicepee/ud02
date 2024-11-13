@@ -23,3 +23,19 @@
 ## Push
 
     git push
+
+## Eliminar archivo
+
+    rm archivo
+
+## Renombrar archivo
+
+    mv nombre_archivo nuevo_nombre_archivo
+
+## Cambiar nombre ultimo commit
+
+    git commit --amend
+
+## Combrobar status repositorio
+
+    git status
