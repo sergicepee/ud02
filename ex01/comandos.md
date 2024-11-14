@@ -16,9 +16,17 @@
 
     mkdir carpeta
 
-## Añadir archivo
+## Añadir UN archivo
 
     git add
+
+## Añadir todos los archivos
+    
+    git add .
+
+## Añadir todos los archivos mostrando lo que está ignorado
+
+    git add *
 
 ## Push
 
@@ -40,6 +48,10 @@
 
     git status
 
+## Comprobar status de forma corta
+
+    git status -s
+
 ## Crear rama
 
     git branch nombre 
@@ -52,3 +64,28 @@
 
     git merge nombre nombre2
 
+## Mostrar todo lo q hay e una ubicacion (ocultos)
+
+    ls -a
+
+## Iniciar repossitorio
+
+    git init
+
+## Saber donde estou ubicado
+
+    pwd
+
+## Ver si ten remotos
+
+    git remote -v
+
+## Ignorar todos los que empiecen por...
+
+Metemos dentro de `.gitignore`:
+
+    (lo que empiecen por ...)*
+
+Para poner excepto un archivo:
+
+    !_archivo.txt
