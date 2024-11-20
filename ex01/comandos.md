@@ -64,6 +64,14 @@
 
     git merge nombre nombre2
 
+## Eliminar rama a la fuerza
+
+    git branck -D nombre
+
+## Eliminar rama sin ser a la fuerza
+
+    git branch -d
+
 ## Mostrar todo lo q hay e una ubicacion (ocultos)
 
     ls -a
@@ -81,7 +89,6 @@
     git remote -v
 
 ## Ignorar todos los que empiecen por...
-
 Metemos dentro de `.gitignore`:
 
     (lo que empiecen por ...)*
@@ -89,3 +96,11 @@ Metemos dentro de `.gitignore`:
 Para poner excepto un archivo:
 
     !_archivo.txt
+
+Si queremos que ignore o que acaban por...:
+
+    *(lo que queremos ignorar)
+
+## Sincronizar repositorios
+
+    git pull (desde el repositorio que queremos sincronizar)
